@@ -1,1 +1,0 @@
-# bona_project
