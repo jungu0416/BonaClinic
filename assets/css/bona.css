@@ -66,4 +66,21 @@
 .bona-opening-hours {
   padding: 30px 0px 30px !important;
 }
-
+.bona-table-div{
+  width: 72%;
+}
+.bona-table-cell-1{
+  width: 10%;
+}
+.bona-table-cell-2{
+  width: 60%;
+}
+.bona-table-cell-3{
+  width: 10%;
+}
+.bona-table-cell-4{
+  width: 20%;
+}
+.bona-table-t{
+  background-color: #f3ced4;;
+}
