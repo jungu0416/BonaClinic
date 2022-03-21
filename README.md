@@ -6,7 +6,7 @@
 # 서비스 주소 -> https://bona.potatoo.dev
 # 젠킨스 주소 -> https://jenkins.potatoo.dev
 
-# OS -> Ubuntu
-# WEB -> nginx
+# OS -> Ubuntu 20.04
+# WEB -> nginx 1.18.0
 # WAS -> tomcat 9.0
 # HTTPS 설정 -> certbot
