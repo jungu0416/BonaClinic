@@ -8,3 +8,5 @@
 # OS -> Ubuntu
 # WEB -> nginx
 # WAS -> tomcat 9.0
+# HTTPS 설정 -> certbot
+# 
