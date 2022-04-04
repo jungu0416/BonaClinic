@@ -1,0 +1,20 @@
+pipeline {
+    agent any
+    stages {
+        stage('test'){
+            steps{
+                echo '해당 프로젝트 복사 후 이동 중...'
+            }   
+        }
+        stage('build'){
+            steps{
+                sh "cp -f ../bona_project_front/* /home/bona "
+            }
+        }
+        stage('Deploy'){
+            steps{
+                echo 'SUCCESSFULLY DONE'
+            }
+        }
+    }
+}
