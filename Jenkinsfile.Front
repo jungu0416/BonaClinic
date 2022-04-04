@@ -8,7 +8,7 @@ pipeline {
         }
         stage('build'){
             steps{
-                sh "cp -r -f ../bona_project_front/* /home/bona "
+                sh "cp -r -p -f ../bona_project_front/* /home/bona "
             }
         }
         stage('Deploy'){
