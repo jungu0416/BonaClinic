@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage('test'){
             steps{
-                echo 'ÇØ´ç ÇÁ·ÎÁ§Æ® º¹»ç ÈÄ ÀÌµ¿ Áß...'
+                echo 'í•´ë‹¹ í”„ë¡œì íŠ¸ ë³µì‚¬ í›„ ì´ë™ ì¤‘...'
             }   
         }
         stage('build'){
             steps{
-                sh "cp -r -p -f ../plastic_project_front/* /home/plastic "
+                sh "sudo cp -r ./* /home/platic"
             }
         }
         stage('Deploy'){
