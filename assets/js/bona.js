@@ -27,7 +27,6 @@ let cssChange = () => {
 
     if(!isMobile()){
         let cssStyle = document.getElementsByClassName('bona-img-width');
-        debugger;
         for(let i=0; i< cssStyle.length; i++){
             cssStyle[i].style.width="70%";
         }
