@@ -8,7 +8,7 @@ pipeline {
         }
         stage('build'){
             steps{
-                sh "sudo cp -r ./* /home/platic"
+                sh "sudo cp -r ./* /home/plastic"
             }
         }
         stage('Deploy'){
