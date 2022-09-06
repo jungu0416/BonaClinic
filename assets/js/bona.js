@@ -22,7 +22,6 @@ window.addEventListener('load', function() {
 
     cssChange();
 
-    var myLatlng = new google.maps.LatLng(35.837143, 128.558612); // 위치값 위도 경도
     var Y_point = 37.5225;        // Y 좌표
     var X_point = 127.0279;        // X 좌표
     var zoomLevel = 18;                // 지도의 확대 레벨 : 숫자가 클수록 확대정도가 큼
