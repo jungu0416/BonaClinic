@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage('test'){
             steps{
-                echo '해당 프로젝트 복사 후 이동 중...'
+                echo 'git pulling...'
             }   
         }
         stage('build'){
             steps{
-                sh "sudo cp -r ./* /home/plastic"
+                sh "pwd"
             }
         }
         stage('Deploy'){
