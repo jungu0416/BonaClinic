@@ -3,7 +3,7 @@ const app = express();
 
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 8899);
 
 app.use(express.static('public'))
 
